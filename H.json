@@ -66,8 +66,8 @@
               "matchVideoUrl": "(?<v>https?:\\/\\/(?:[^\\/]*\\.)?(vdownload|abre-videos|xvideos).*?(1080).*\\.(m3u8|mp4|vip|xigua\\.php)(?:\\?.+)?)",
               "cookies": "quality=1080",
               "addHeadersToVideo": {
-                "referer": "",
-                "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.3"
+                "referer": "https://hanime1.me/",
+                "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 17_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Mobile/15E148 Safari/604.1"
               }
             }
           }
@@ -125,7 +125,7 @@
               "cookies": "quality=720",
               "addHeadersToVideo": {
                 "referer": "",
-                "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.3"
+                "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 17_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Mobile/15E148 Safari/604.1"
               }
             }
           }
@@ -183,7 +183,7 @@
               "cookies": "quality=720",
               "addHeadersToVideo": {
                 "referer": "",
-                "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.3"
+                "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 17_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Mobile/15E148 Safari/604.1"
               }
             }
           }
@@ -192,4 +192,5 @@
     ]
   }
 }
+
 
