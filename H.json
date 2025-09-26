@@ -2,26 +2,12 @@
   "exportedMediaSourceDataList": {
     "mediaSources": [
       {
-        "factoryId": "rss",
-        "version": 1,
-        "arguments": {
-          "name": "nyaa-里",
-          "description": "H~低调使用~",
-          "iconUrl": "https://gitee.com/wan0ge/extract-pure-links/raw/Ani_Pages/favicon/nyaa.si_H.png",
-          "searchConfig": {
-            "searchUrl": "https://sukebei.nyaa.si/?page=rss&q={keyword}&c=0_0&f=0",
-            "filterByEpisodeSort": true,
-            "filterBySubjectName": false
-          }
-        }
-      },
-      {
         "factoryId": "web-selector",
         "version": 2,
         "arguments": {
           "name": "hanime1_1080p",
           "description": "H~低调使用 源网站偶尔会开防护 连不上请尝试Tun",
-          "iconUrl": "https://gitee.com/wan0ge/extract-pure-links/raw/Ani_Pages/favicon/hanime1.me_1080.png",
+          "iconUrl": "https://gitee.com/wan0ge/extract-pure-links/raw/Ani_Pages/favicon/hanime1.me_108.png",
           "searchConfig": {
             "searchUrl": "https://hanime1.me/search?query={keyword}",
             "searchUseOnlyFirstWord": false,
@@ -56,12 +42,13 @@
             "matchVideo": {
               "enableNestedUrl": true,
               "matchNestedUrl": "^(?=.*(index))(?=.*(1080|720|480)).*?(m3u8|mp4|vip|xigua\\.php).*",
-              "matchVideoUrl": "(?<v>https?:\\/\\/(?:[^\\/]*\\.)?(vdownload|abre-videos|xvideos).*?(1080).*\\.m3u8(?:\\?.+)?)",
+              "matchVideoUrl": "(?<v>https?:\\/\\/(?:[^\\/]*\\.)?(vdownload|abre-videos|xvideos).*?(1080).*\\.(m3u8|mp4)(?:\\?.+)?)",
               "cookies": "quality=1080",
               "addHeadersToVideo": {
                 "referer": "https://hanime1.me/",
                 "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 16_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148"
-              }
+              },
+              "openInBrowser": true
             }
           }
         }
@@ -107,12 +94,13 @@
             "matchVideo": {
               "enableNestedUrl": true,
               "matchNestedUrl": "^(?=.*(index))(?=.*(1080|720|480)).*?(m3u8|mp4|vip|xigua\\.php).*",
-              "matchVideoUrl": "(?<v>https?:\\/\\/(?:[^\\/]*\\.)?(vdownload|abre-videos|xvideos).*?(720|480).*\\.m3u8(?:\\?.+)?)",
+              "matchVideoUrl": "(?<v>https?:\\/\\/(?:[^\\/]*\\.)?(vdownload|abre-videos|xvideos).*?(720|480).*\\.(m3u8|mp4)(?:\\?.+)?)",
               "cookies": "quality=720",
               "addHeadersToVideo": {
                 "referer": "https://hanime1.me/",
                 "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 16_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148"
-              }
+              },
+              "openInBrowser": true
             }
           }
         }
@@ -158,12 +146,13 @@
             "matchVideo": {
               "enableNestedUrl": true,
               "matchNestedUrl": "^(?=.*(index))(?=.*(1080|720|480)).*?(m3u8|mp4|vip|xigua\\.php).*",
-              "matchVideoUrl": "(?<v>https?:\\/\\/(?:[^\\/]*\\.)?(vdownload|abre-videos|xvideos).*?(720|480).*\\.m3u8(?:\\?.+)?)",
+              "matchVideoUrl": "(?<v>https?:\\/\\/(?:[^\\/]*\\.)?(vdownload|abre-videos|xvideos).*?(720|480).*\\.(m3u8|mp4)(?:\\?.+)?)",
               "cookies": "quality=720",
               "addHeadersToVideo": {
                 "referer": "https://hanimeone.me/",
                 "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 16_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148"
-              }
+              },
+              "openInBrowser": true
             }
           }
         }
