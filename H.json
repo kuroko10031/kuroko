@@ -1,7 +1,7 @@
 {
   "exportedMediaSourceDataList": {
     "mediaSources": [
-	      {
+      {
         "factoryId": "rss",
         "version": 1,
         "arguments": {
@@ -27,13 +27,9 @@
             "searchUseOnlyFirstWord": false,
             "searchRemoveSpecial": true,
             "searchUseSubjectNamesCount": 2,
-            "rawBaseUrl": "",
             "requestInterval": 1233,
             "subjectFormatId": "indexed",
-            "selectorSubjectFormatA": {
-              "selectLists": "div.home-rows-videos-wrapper a",
-              "preferShorterName": false
-            },
+            "selectorSubjectFormatA": { "selectLists": "div.home-rows-videos-wrapper a", "preferShorterName": false },
             "selectorSubjectFormatIndexed": {
               "selectNames": "#home-rows-wrapper > div.content-padding-new > div > div.col-xs-12.search-doujin-videos.hidden-sm.hidden-md.hidden-lg.hidden-xl.hover-lighter.multiple-link-wrapper > div > div > div > div.card-mobile-title",
               "selectLinks": "#home-rows-wrapper > div.content-padding-new > div > div.col-xs-12.search-doujin-videos.hidden-sm.hidden-md.hidden-lg.hidden-xl.hover-lighter.multiple-link-wrapper > a",
@@ -56,18 +52,15 @@
             "defaultResolution": "1080P",
             "filterByEpisodeSort": false,
             "filterBySubjectName": false,
-            "selectMedia":{
-              "distinguishSubjectName":false,
-              "distinguishChannelName":false
-			},
+            "selectMedia": { "distinguishSubjectName": false, "distinguishChannelName": false },
             "matchVideo": {
               "enableNestedUrl": true,
               "matchNestedUrl": "^(?=.*(index))(?=.*(1080|720|480)).*?(m3u8|mp4|vip|xigua\\.php).*",
-              "matchVideoUrl": "(?<v>https?:\\/\\/(?:[^\\/]*\\.)?(vdownload|abre-videos|xvideos).*?(1080).*\\.(m3u8|mp4|vip|xigua\\.php)(?:\\?.+)?)",
+              "matchVideoUrl": "(?<v>https?:\\/\\/(?:[^\\/]*\\.)?(vdownload|abre-videos|xvideos).*?(1080).*\\.m3u8(?:\\?.+)?)",
               "cookies": "quality=1080",
               "addHeadersToVideo": {
                 "referer": "https://hanime1.me/",
-                "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 17_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Mobile/15E148 Safari/604.1"
+                "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 16_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148"
               }
             }
           }
@@ -85,13 +78,9 @@
             "searchUseOnlyFirstWord": false,
             "searchRemoveSpecial": true,
             "searchUseSubjectNamesCount": 2,
-            "rawBaseUrl": "",
             "requestInterval": 1233,
             "subjectFormatId": "indexed",
-            "selectorSubjectFormatA": {
-              "selectLists": "div.home-rows-videos-wrapper a",
-              "preferShorterName": false
-            },
+            "selectorSubjectFormatA": { "selectLists": "div.home-rows-videos-wrapper a", "preferShorterName": false },
             "selectorSubjectFormatIndexed": {
               "selectNames": "#home-rows-wrapper > div.content-padding-new > div > div.col-xs-12.search-doujin-videos.hidden-sm.hidden-md.hidden-lg.hidden-xl.hover-lighter.multiple-link-wrapper > div > div > div > div.card-mobile-title",
               "selectLinks": "#home-rows-wrapper > div.content-padding-new > div > div.col-xs-12.search-doujin-videos.hidden-sm.hidden-md.hidden-lg.hidden-xl.hover-lighter.multiple-link-wrapper > a",
@@ -114,18 +103,15 @@
             "defaultResolution": "720P",
             "filterByEpisodeSort": false,
             "filterBySubjectName": false,
-            "selectMedia":{
-              "distinguishSubjectName":false,
-              "distinguishChannelName":false
-			},
+            "selectMedia": { "distinguishSubjectName": false, "distinguishChannelName": false },
             "matchVideo": {
               "enableNestedUrl": true,
               "matchNestedUrl": "^(?=.*(index))(?=.*(1080|720|480)).*?(m3u8|mp4|vip|xigua\\.php).*",
-              "matchVideoUrl": "(?<v>https?:\\/\\/(?:[^\\/]*\\.)?(vdownload|abre-videos|xvideos).*?(1080|720|480).*\\.(m3u8|mp4|vip|xigua\\.php)(?:\\?.+)?)",
+              "matchVideoUrl": "(?<v>https?:\\/\\/(?:[^\\/]*\\.)?(vdownload|abre-videos|xvideos).*?(720|480).*\\.m3u8(?:\\?.+)?)",
               "cookies": "quality=720",
               "addHeadersToVideo": {
                 "referer": "https://hanime1.me/",
-                "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 17_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Mobile/15E148 Safari/604.1"
+                "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 16_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148"
               }
             }
           }
@@ -143,13 +129,9 @@
             "searchUseOnlyFirstWord": false,
             "searchRemoveSpecial": true,
             "searchUseSubjectNamesCount": 2,
-            "rawBaseUrl": "",
             "requestInterval": 1233,
             "subjectFormatId": "indexed",
-            "selectorSubjectFormatA": {
-              "selectLists": "div.home-rows-videos-wrapper a",
-              "preferShorterName": false
-            },
+            "selectorSubjectFormatA": { "selectLists": "div.home-rows-videos-wrapper a", "preferShorterName": false },
             "selectorSubjectFormatIndexed": {
               "selectNames": "#home-rows-wrapper > div.content-padding-new > div > div.col-xs-12.search-doujin-videos.hidden-sm.hidden-md.hidden-lg.hidden-xl.hover-lighter.multiple-link-wrapper > div > div > div > div.card-mobile-title",
               "selectLinks": "#home-rows-wrapper > div.content-padding-new > div > div.col-xs-12.search-doujin-videos.hidden-sm.hidden-md.hidden-lg.hidden-xl.hover-lighter.multiple-link-wrapper > a",
@@ -172,18 +154,15 @@
             "defaultResolution": "720P",
             "filterByEpisodeSort": false,
             "filterBySubjectName": false,
-            "selectMedia":{
-              "distinguishSubjectName":false,
-              "distinguishChannelName":false
-			},
+            "selectMedia": { "distinguishSubjectName": false, "distinguishChannelName": false },
             "matchVideo": {
               "enableNestedUrl": true,
               "matchNestedUrl": "^(?=.*(index))(?=.*(1080|720|480)).*?(m3u8|mp4|vip|xigua\\.php).*",
-              "matchVideoUrl": "(?<v>https?:\\/\\/(?:[^\\/]*\\.)?(vdownload|abre-videos|xvideos).*?(1080|720|480).*\\.(m3u8|mp4|vip|xigua\\.php)(?:\\?.+)?)",
+              "matchVideoUrl": "(?<v>https?:\\/\\/(?:[^\\/]*\\.)?(vdownload|abre-videos|xvideos).*?(720|480).*\\.m3u8(?:\\?.+)?)",
               "cookies": "quality=720",
               "addHeadersToVideo": {
                 "referer": "https://hanimeone.me/",
-                "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 17_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Mobile/15E148 Safari/604.1"
+                "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 16_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148"
               }
             }
           }
@@ -192,6 +171,3 @@
     ]
   }
 }
-
-
-
